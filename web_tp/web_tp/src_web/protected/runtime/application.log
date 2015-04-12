@@ -1094,3 +1094,19 @@ REQUEST_URI=/index.php?r=testtest/index
 in D:\project\github\tanphucglass\web_tp\protected\controllers\TesttestController.php (40)
 in D:\project\github\tanphucglass\web_tp\protected\controllers\TesttestController.php (9)
 in D:\project\github\tanphucglass\web_tp\index.php (17)
+2015/04/12 07:18:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "site".' in C:\Users\thuan.phan\Desktop\GIT\tanphuc_src\web_tp\web_tp\src_web\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\Users\thuan.phan\Desktop\GIT\tanphuc_src\web_tp\web_tp\src_web\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#1 C:\Users\thuan.phan\Desktop\GIT\tanphuc_src\web_tp\web_tp\src_web\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\Users\thuan.phan\Desktop\GIT\tanphuc_src\web_tp\web_tp\src_web\index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/
+---
+2015/04/12 07:50:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "site".' in C:\Users\thuan.phan\Desktop\GIT\tanphuc_src\web_tp\web_tp\src_web\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\Users\thuan.phan\Desktop\GIT\tanphuc_src\web_tp\web_tp\src_web\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#1 C:\Users\thuan.phan\Desktop\GIT\tanphuc_src\web_tp\web_tp\src_web\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\Users\thuan.phan\Desktop\GIT\tanphuc_src\web_tp\web_tp\src_web\index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/
+---
